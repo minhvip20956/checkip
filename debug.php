@@ -5,8 +5,10 @@
     </title>
   </head>
   <body>
+    HTTP_X_FORWARDED_FOR IP Address: <?=$_SERVER['HTTP_X_FORWARDED_FOR']?>
+    </br>
     REMOTE_ADDR IP Address: <?=$_SERVER['REMOTE_ADDR']?>
     </br>
-    HTTP_X_FORWARDED_FOR IP Address: <?=$_SERVER['HTTP_X_FORWARDED_FOR']?>
+    HTTP_CLIENT_IP IP Address: <?=$_SERVER['HTTP_CLIENT_IP']?>
   </body>
 </html>
